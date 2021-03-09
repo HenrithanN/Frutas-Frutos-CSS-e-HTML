@@ -1,0 +1,17 @@
+/*Titulo*/
+.sobre-titulo{
+    color: #8d0606;                     /*Cor da Fonte*/
+    font-family: Pacifico, 'cursive';     /*Fonte, se nao tiver vai usar uma cursiva disponivel*/
+}
+
+@media screen and (min-width: 0){
+    .sobre-titulo{
+        font-size: 1.5rem;                      /*Tamanho da Fonte*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre-titulo{
+        font-size: 3rem;                      /*Tamanho da Fonte*/
+    }
+}

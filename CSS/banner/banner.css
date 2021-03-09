@@ -1,0 +1,4 @@
+/*Banner*/
+.banner{
+    position: relative; /*Os filhos serao posicionados com relacao ao Banner*/
+}

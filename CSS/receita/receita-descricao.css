@@ -1,0 +1,6 @@
+/*Receita Descricao*/
+.receita-descricao{
+    font-size: 1rem;        /*Tamanho da Fonte*/
+    line-height: 1.5rem;    /*Altura da Fonte*/
+    text-align: justify;    /*Alinhamento do Texto Justificado*/
+}

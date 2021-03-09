@@ -1,0 +1,7 @@
+/*Menu Item*/
+.menu-item{
+    list-style: none;               /*Lista sem Estilos*/
+}
+.menu-item:last-child .menu-link{
+    margin-right: 0;                /*0 de margem pra direita*/
+}

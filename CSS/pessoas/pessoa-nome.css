@@ -1,0 +1,7 @@
+/*Pessoa Nome*/
+.pessoa-nome{
+    color: #8d0606;                 /*Cor da Fonte*/
+    font-family: Pacifico, 'cursive'; /*Fonte Pacifico ou outra cursiva*/
+    font-size: 2rem;                  /*Tamanho da Fonte*/
+    margin: 1rem 0;                   /*Margem 1rem Top,Bottom, Margem 0 pros lados*/
+}

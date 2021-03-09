@@ -1,0 +1,4 @@
+/*Menu Lista/ ul*/
+.menu-lista {
+    display: flex;  /*Define o elemento como um container flex*/
+}

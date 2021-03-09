@@ -1,0 +1,17 @@
+/*Receita Botao*/
+.receita-botao{
+    background: #8d0606;              /*Cor de Fundo*/
+    border: none;                       /*Sem borda*/
+    border-radius: 5px;                 /*Cantos da Borda Arredondando 5px*/
+    color: white;                     /*Cor da Fonte*/
+    padding: 1rem;                      /*Espacamento Interno*/
+    transition: all 1s  ease-in-out;    /*Transicao de todos os elementos, 1 segundo, começa devagar e termina devagar*/
+}
+
+.receita-botao:hover{           /*Efeitos quando o mouse passar por cima*/
+    background: #620404;      /*Muda a Cor quando o mouse passar por cima*/
+    cursor: pointer;            /*Troca o Cursor quando o mouse passa por cima*/    
+    transform: scale(1.1);
+}
+
+

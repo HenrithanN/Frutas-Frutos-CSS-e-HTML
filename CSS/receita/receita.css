@@ -1,0 +1,29 @@
+/*Receita*/
+.receita{
+    background: #fdfdfd;        /*Cor de Fundo*/
+    display: flex;                /*Container Flex*/
+    flex-direction: column;       /*Diracao em colunas*/
+    margin-bottom: 5rem;          /*Margem pra baixo*/
+}
+
+/*Responsivo*/
+@media screen and (min-width: 0){
+    .receita{
+        width: 100%;      /*Tamanho do Card*/
+        margin-right: 1rem;  /*Margem a direita*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .receita{
+        width: calc(33.33% - 2.5rem);      /*Tamanho do Card - a margem a direita*/
+        margin-right: 2.5rem;           /*Margem pra direita*/
+    }
+}
+
+@media screen and (min-width: 992px){
+    .receita{
+        width: calc(25% - 5rem);      /*Tamanho do Card - a margem a direita*/
+        margin-right: 5rem;           /*Margem pra direita*/
+    }
+}

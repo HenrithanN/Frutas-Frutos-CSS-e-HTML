@@ -1,0 +1,17 @@
+/*Sobre*/
+.sobre{
+    text-align: center;     /*Texto alinhado no centro*/
+}
+
+/*Responsivo*/
+@media screen and (min-width: 0){
+    .sobre{
+        padding: 2.5rem 1rem;        /*Espacamento interno*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre{
+        padding: 2.5rem;        /*Espacamento interno*/
+    }
+}

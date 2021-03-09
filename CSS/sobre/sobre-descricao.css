@@ -1,0 +1,17 @@
+/*Descricao*/
+.sobre-descricao{
+    color: #595959;           /*Cor da Fonte*/
+    font-weight: 100;           /*Fonte com peso mais claro*/
+}
+
+@media screen and (min-width: 0){
+    .sobre-descricao{
+        font-size: 1.3rem;         /*Tamanho da Fonte*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre-descricao{
+        font-size: 1.75rem;         /*Tamanho da Fonte*/
+    }
+}

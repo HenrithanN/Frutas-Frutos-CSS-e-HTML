@@ -1,0 +1,7 @@
+/*Quem somos descricao*/
+
+.quem-somos-descricao{
+    color: #595959;         /*Cor da fonte*/
+    font-weight: 100;         /*Peso da Fonte*/
+    font-size: 1.75rem;       /*Tamanho da Fonte*/
+}

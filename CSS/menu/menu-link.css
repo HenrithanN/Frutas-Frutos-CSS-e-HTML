@@ -1,0 +1,15 @@
+/*Menu Link*/
+.menu-link{
+    color: #808080;             /*Cor da Fonte*/
+    margin-right: 1.5rem;         /*Margem a direita*/
+    text-decoration: none;        /*Texto sem decoracao*/
+    text-transform: lowercase;    /*Texto se transformando pra menor*/
+}
+/*Menu Link Ativo*/
+.menu-link.ativo{       
+    font-weight: bold;             /*Peso da Fonte*/
+}
+/*Menu Link Hover*/
+.menu-link:hover{
+    text-decoration: underline;    /*Sublinhado quando passa por cima*/
+}

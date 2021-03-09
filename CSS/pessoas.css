@@ -1,0 +1,16 @@
+.pessoas {
+    display: flex;                  /*Flex Container*/
+    justify-content: space-around;  /*Espaço em volta dos elementos*/
+    padding-top: 3rem;              /*Espacamento interno para cima*/
+}
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;     /*Direcao = colunas*/
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;        /*Direcao = linhas*/
+    }
+}

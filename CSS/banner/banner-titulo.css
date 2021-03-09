@@ -1,0 +1,24 @@
+/*Banner Titulo*/
+.banner-titulo{
+    color: white;                                   /*Cor do Texto*/
+    font-family: Pacifico, 'cursive';                 /*Familia da Fonte se nao tiver a Pacifico vai escolher outra cursiva*/    left: 50%;                                        /*50% de distanciamento da esquerda*/
+    position: absolute;                               /*Posição Absoluta, Vai sobrepor a imagem*/
+    top: 50%;                                         /*50% de distanciamento do topo*/
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);     /*Sombra do Texto*/
+    text-align: center;                               /*Texto Alinhado no Centro*/
+    transform: translate(-50%, -50%);                 /*Move pra Esquerda/Direita(Eixo X) Cima/Baixo(Eixo Y)*/
+    width: 100%;                                      /*Vai ocupar 100% da tela*/
+}
+
+/*Responsivo*/
+@media screen and (min-width: 0){
+    .banner-titulo{
+        font-size: 3rem;                              /*Tamanho da Fonte*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner-titulo{
+        font-size: 5rem;                              /*Tamanho da Fonte*/
+    }
+}

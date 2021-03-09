@@ -1,0 +1,33 @@
+/*Pessoa Imagem*/
+
+.pessoa-imagem{
+    height: 300px;      /*Altura*/
+    margin: 0 auto;     /*Auto vai centralizar a imagem*/
+    width: 300px;       /*Largura*/
+}
+
+.pessoa-imagem:hover{           /*Efeitos quando o mouse passar por cima*/
+    transform: scale(1.075);    /*Aumenta o tamanho*/
+    transition: 1s;             /*1segundo de transiacao*/
+}
+.pessoa-imagem--roberta{
+    background-image: url(../../Imagens/pessoas/roberta.jpg);   /*Url da imagem*/
+    background-repeat: no-repeat;                               /*Imagem nao vai repetir*/
+    background-size: cover;                                     /*Imagem vai cobrir todo espaco*/
+    border-radius: 50%;                                         /*Arredondar bordas em 50%*/
+}
+
+.pessoa-imagem--marcela{
+    background-image: url(../../Imagens/pessoas/marcela.jpg);   /*Url da Imagem*/
+    background-repeat: no-repeat;                               /*Imagem nao vai repetir*/
+    background-size: cover;                                     /*Imagem vai cobrir todo espaco*/
+    border-radius: 50%;                                         /*Arredondar bordas em 50%*/
+
+}
+.pessoa-imagem--andreia{
+    background-image: url(../../Imagens/pessoas/andreia.jpg);   /*Url da Imagem*/
+    background-repeat: no-repeat;                               /*Imagem nao vai repetir*/
+    background-size: cover;                                     /*Imagem vai cobrir todo espaco*/
+    border-radius: 50%;                                         /*Arredondar bordas em 50%*/
+
+}

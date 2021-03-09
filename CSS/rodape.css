@@ -1,0 +1,19 @@
+/*Rodape*/
+.rodape{
+    background:#bfbfbf;    /*Cor de fundo*/
+    color: #fdfdfd;        /*Cor da fonte*/
+    text-align: center;      /*Alinhamento do Texto*/
+    padding-bottom: 10px;    /*Espaco interno*/
+}
+
+.rodape-logo{                /*Tamanho dos logos e espaçamento*/
+    width: 100px;            /*Largura*/
+    margin-left: 20px;       /*margem a esquerda*/
+    margin-right: 20px;      /*Margem a direita*/
+}
+.rodape-logo:hover{          /*Efeitos ao passar o mouse por cima*/
+    margin-bottom: 10px;    /*Tera uma margem de 10px para baixo*/ 
+    margin-left: 10px;      /*Tera uma margem de 10px para a esquerda*/
+    margin-right: 10px;     /*Tera uma margem de 10px pra direita*/
+    transform: scale(1.5);  /*Aumentara de tamanho*/
+}

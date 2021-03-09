@@ -1,0 +1,25 @@
+/*Receitas*/
+.receitas{
+    background: #e5e5e5;      /*Cor do Background*/
+    display: flex;              /*Define o elemento como um container flex*/
+    flex-wrap: wrap;            /*Vai quebrar os elementos em colunas*/
+}
+
+/*Responsivo*/
+@media screen and (min-width: 0){
+    .receitas{
+        padding: 5rem 0 0 1rem;         /*Espacamento Interno Top,Right,Bot,Left*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .receitas{
+        padding: 5rem 0 0 2.5rem;       /*Espacamento Interno Top,Right,Bot,Left*/
+    }
+}
+
+@media screen and (min-width: 992px){
+    .receitas{
+        padding: 5rem 0 0 5rem;         /*Espacamento Interno Top,Right,Bot,Left*/
+    }
+}
